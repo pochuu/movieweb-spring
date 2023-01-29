@@ -16,6 +16,7 @@ The main logic is in the ReviewService file where rating of a choosen movie is c
 
 ## Table relations
 Users OneToMany Reviews
+
 Movies OneToMany Reviews
 
 ## Example endpoints execution
