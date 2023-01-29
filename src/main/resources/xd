@@ -1,0 +1,17 @@
+
+ @Entity
+ @Table(name = "user_profiles")
+ public class UserProfile implements Serializable {
+ @OneToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
+
+
+@Entity
+@Table(name = "users")
+public class User implements Serializable {
+    @OneToOne(fetch = FetchType.LAZY,
+                cascade =  CascadeType.ALL,
+                mappedBy = "user")
+        private UserProfile userProfile;
