@@ -1,5 +1,5 @@
 # Spring-movieweb
-A CRUD application made with Spring + PostgreSQL.
+A CRUD application made with Spring Boot + PostgreSQL.
 
 
 ## Endpoints (plus means it exists, minus it does not)
