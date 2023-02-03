@@ -3,13 +3,13 @@ A CRUD application made with Spring Boot + PostgreSQL.
 
 
 ## Endpoints (plus means it exists, minus it does not)
-|endpoint-name|get|put|delete|
+|endpoint-name|GET|PUT|POST|DELETE|
 |-|-|-|-|
-|/api/users/|+|-|-|
-|/api/users/{userId}|+|+|+|
-|/api/reviews|+|-|-|
-|/api/reviews/{reviewId}|+|+|+|
-|/api/movies|+|-|+|
+|/api/users/|+|-|+|-|
+|/api/users/{userId}|+|+|-|+|
+|/api/reviews|+|-|+|-|
+|/api/reviews/{reviewId}|+|+|-|+|
+|/api/movies|+|-|+|-|
 
 ## ReviewService layer
 The main logic is in the ReviewService file where rating of a choosen movie is computed. It is based on reviews that are added or modified by users.
