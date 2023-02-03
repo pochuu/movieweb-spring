@@ -4,7 +4,7 @@ A CRUD application made with Spring Boot + PostgreSQL.
 
 ## Endpoints (plus means it exists, minus it does not)
 |endpoint-name|GET|PUT|POST|DELETE|
-|-|-|-|-|
+|-|-|-|-|-|
 |/api/users/|+|-|+|-|
 |/api/users/{userId}|+|+|-|+|
 |/api/reviews|+|-|+|-|
